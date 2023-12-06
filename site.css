@@ -34,6 +34,12 @@ main{
     text-align: center;
     padding-top: 250px;
 }
+main svg{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
 main input{
     width: 550px;
     height: 48px;
@@ -46,19 +52,42 @@ main input{
     margin-bottom: 8px;
     overflow-x: hidden;
 }
+main input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+main button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.search-bar{
+    position: relative;
+}
+.search-bar svg{
+    width: 20px;
+    position: absolute;
+    top: -11px;
+    left: 80px;
+    display: block;
+    fill: #9aa0a6;
+
+}
 .circle {
-    text-align: center;
+    position: relative;
     height: 45px;
     width: 44px;
     background-color: #ffffff;
-    border: 10px solid rgb(226, 44, 44);
+    border: 9.5px solid rgb(226, 44, 44);
     border-radius: 50%;
     display: inline-block;
   }
 #ny{
     padding-left: 15px;
 }
-#ara{
+.ara{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -91,28 +120,42 @@ footer{
     bottom: 0;
     width: 100%;
 }
+footer a {
+    display: inline-block;
+    padding: 15px;
+    font-size: 14px;
+}
+
 .fust{
-    padding: 15 30px;
-    border-bottom: 1px solid;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-left: 30px;
+
 }
 .falt{
+    align-items: center;
+    border-top: 1px solid #ddd;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 0 20px;
 }
+.falt a:hover{
+    text-decoration: underline;
+}
 .fsol{
+    width: 33%;
     color:#202124;
     padding: 15px;
     display: flex;
     text-align: left;
 }
 .fort{
+    margin: 0px auto;
     display: block;
-    padding: 15px;
-    white-space: nowrap;
 }
 .fsag{
+    width: 33%;
     text-align: right;
     white-space: nowrap;
 }

@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+html{
+    font-size: 14px;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+nav{
+    text-align: right;
+    padding: 6px;
+}
+nav button{
+    background: #1a73e8;
+    color:#fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 8px;
+    padding: 9px 23px;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+    padding-top: 250px;
+}
+main input{
+    width: 550px;
+    height: 48px;
+    border-radius:24px;
+    border:0.5px solid;
+    border-color: rgb(190, 177, 177);
+    padding: 5px 8px 0 14px;
+    font-family: arial,sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+}
+.circle {
+    text-align: center;
+    height: 45px;
+    width: 44px;
+    background-color: #ffffff;
+    border: 10px solid rgb(226, 44, 44);
+    border-radius: 50%;
+    display: inline-block;
+  }
+#ny{
+    padding-left: 15px;
+}
+#ara{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+footer{
+    
+    background-color: #f2f2f2;
+    justify-content: space-evenly;
+    display: block;
+    padding: 0 20px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+.fust{
+    padding: 15 30px;
+    border-bottom: 1px solid;
+}
+.falt{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.fsol{
+    color:#202124;
+    padding: 15px;
+    display: flex;
+    text-align: left;
+}
+.fort{
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+.fsag{
+    text-align: right;
+    white-space: nowrap;
+}
